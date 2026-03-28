@@ -16,7 +16,7 @@ const projects = [
 
 const certificates = [
     { icon: '🎮', title: { en: 'Game Academy', tr: 'Oyun Akademisi' }, subtitle: 'Google OUA 24', link: 'https://verified.sertifier.com/tr/verify/02951662813304/' },
-    { icon: '📋', title: { en: 'Google Project Management', tr: 'Google Proje Yönetimi' }, subtitle: 'Google (Coursera)', link: 'https://coursera.org/share/86ed1c16c4479cb582d5e0a423ced82b' },
+    { icon: '📋', title: { en: 'Google Project Management', tr: 'Google Proje Yönetimi' }, subtitle: 'Google (Coursera)', link: 'https://coursera.org/share/f455ccaea0204bfd862f405fc1099169' },
     { icon: '💡', title: { en: 'Ideathon 2024', tr: 'Ideathon 2024' }, subtitle: 'Google OUA', link: 'https://verified.sertifier.com/en/verify/01809811662052/?ref=email' },
     { icon: '📝', title: { en: 'TOEFL ITP', tr: 'TOEFL ITP' }, subtitle: '550 - April 2022', isExam: true },
     { icon: '📝', title: { en: 'eYDS', tr: 'eYDS' }, subtitle: '76.25 - January 2026', isExam: true }
