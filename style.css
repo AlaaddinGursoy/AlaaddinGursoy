@@ -537,13 +537,49 @@ body {
     color: var(--text-muted);
 }
 
-.github-link {
+.hero-education {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: rgba(99, 102, 241, 0.1);
+    border: 1px solid rgba(99, 102, 241, 0.25);
+    padding: 0.6rem 1.25rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
     color: var(--text-secondary);
-    transition: color 0.3s ease;
+    font-weight: 500;
 }
 
-.github-link:hover {
-    color: var(--accent-1);
+.education-icon {
+    font-size: 1.2rem;
+}
+
+.footer-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-link {
+    color: var(--text-secondary);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--card-border);
+    background: var(--bg-card);
+}
+
+.social-link:hover {
+    color: white;
+    background: var(--gradient);
+    border-color: transparent;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px var(--glow);
 }
 
 @media (max-width: 1024px) {
